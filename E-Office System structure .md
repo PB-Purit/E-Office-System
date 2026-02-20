@@ -25,11 +25,11 @@ npm run build
 
 
 
-📰 EDNewsManager — e-Office News System
+📰 E-Office System
 
 ระบบจัดการข่าวประชาสัมพันธ์สำหรับกรมการขนส่งทางราง
 พัฒนาด้วย React 18 + TypeScript + Tailwind CSS + Vite
-รองรับ Full CRUD · Real-time Search · Status Toggle · Vercel Deployment
+รองรับ Full CRUD · Real-time Search · Status Toggle ·
 
 🧭 Table of Contents
 
@@ -54,7 +54,7 @@ Changelog
 EDNewsManager เป็น Web Application สำหรับจัดการข่าวประชาสัมพันธ์ภายในองค์กร
 ออกแบบมาเพื่อใช้งานใน e-Office System ของกรมการขนส่งทางราง
 รองรับการสร้าง อ่าน แก้ไข และลบข่าว (CRUD) พร้อม Role-based Button Permissions
-ItemDetailProject NameEDNewsManagerVersion1.0.0 Organizationกรมการขนส่งทางราง (Department of Rail Transport)Systemระบบบริหารสำนักงานอัตโนมัติ (e-Office)LanguageThai + EnglishLicenseMIT
+ItemDetailProject NameEDNewsManagerVersion1.0.0 Organizationกรมการขนส่งทางราง (Department of Rail Transport)Systemระบบบริหารสำนักงานอัตโนมัติ (e-Office)LanguageThai 
 
 ⚙️ Technology Stack
 🖥 Frontend Core
@@ -80,7 +80,7 @@ vite                  ^5.4.10    Next-gen frontend build tool
 PlatformToolPurposeVercelVercel CLI / GitHub IntegrationHosting + CI/CDNode.js≥ 18.xRuntime for build processnpm≥ 9.xPackage Manager
 
 📁 Project Structure
-ed-news-manager/
+E-Office System
 │
 ├── 📄 index.html                        # Entry HTML — mount point #root
 ├── 📄 package.json                      # Dependencies & npm scripts
@@ -233,12 +233,6 @@ VITE_API_BASE_URL=https://your-api-domain.com/api
 ตัวแปร environment ใน Vite ต้องขึ้นต้นด้วย VITE_ เท่านั้น
 ใช้ใน code ผ่าน import.meta.env.VITE_API_BASE_URL
 
-วิธีตั้งค่าใน Vercel
-Vercel Dashboard
-  → Project Settings
-  → Environment Variables
-  → Add: VITE_API_BASE_URL = https://your-api-domain.com/api
-
 
 
 📐 Folder Conventions
@@ -334,11 +328,6 @@ v1.0.0 — 2025
 ✅ Responsive design (mobile → desktop)
 ✅ 3-mode modal (Create / Edit / View)
 ✅ Delete confirmation modal
-✅ TypeScript strict mode
-✅ Vercel deployment ready
 
 
-📞 Support
-ContactDetailSystemระบบบริหารสำนักงานอัตโนมัติ (e-Office)Organizationกรมการขนส่งทางรางStackReact 18 · TypeScript · Tailwind CSS · ViteDeployVercel
-
-Built By Purit ❤️ e-Office System
+Built By Purit ❤️ E-Office Systems

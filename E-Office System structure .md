@@ -54,7 +54,7 @@ Changelog
 EDNewsManager เป็น Web Application สำหรับจัดการข่าวประชาสัมพันธ์ภายในองค์กร
 ออกแบบมาเพื่อใช้งานใน e-Office System ของกรมการขนส่งทางราง
 รองรับการสร้าง อ่าน แก้ไข และลบข่าว (CRUD) พร้อม Role-based Button Permissions
-ItemDetailProject NameEDNewsManagerVersion1.0.0 Organizationกรมการขนส่งทางราง (Department of Rail Transport)Systemระบบบริหารสำนักงานอัตโนมัติ (e-Office)LanguageThai 
+ItemDetailProject NameEDNewsManagerVersion1.0.0 Organizationกรมการขนส่งทางราง (Department of Rail Transport)Systemระบบบริหารสำนักงานอัตโนมัติ (e-Office)
 
 ⚙️ Technology Stack
 🖥 Frontend Core
@@ -76,8 +76,6 @@ tailwindcss           ^3.4.14    Utility CSS framework
 typescript            ^5.6.2     TypeScript compiler
 vite                  ^5.4.10    Next-gen frontend build tool
 
-🌐 Deployment Platform
-PlatformToolPurposeVercelVercel CLI / GitHub IntegrationHosting + CI/CDNode.js≥ 18.xRuntime for build processnpm≥ 9.xPackage Manager
 
 📁 Project Structure
 E-Office System
@@ -232,7 +230,6 @@ VITE_API_BASE_URL=https://your-api-domain.com/api
 
 ตัวแปร environment ใน Vite ต้องขึ้นต้นด้วย VITE_ เท่านั้น
 ใช้ใน code ผ่าน import.meta.env.VITE_API_BASE_URL
-
 
 
 📐 Folder Conventions
